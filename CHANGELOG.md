@@ -6,6 +6,30 @@ pre-releases and **even** minor version numbers for stable releases.
 Read more about pre-release versioning behavior for extensions in the
 [VS Code documentation](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#prerelease-extensions).
 
+## [1.9.0] - 2025-09-24
+
+### Added
+
+- **Server dashboard** providing high-level metadata plus real-time and historical performance metrics for PostgreSQL servers (historical metrics for Azure Database for PostgreSQL Flexible Server). Surfaces initial set of metrics including CPU, memory, connections, I/O, and wait statistics for faster diagnosis. Provide feedback: <https://aka.ms/pgsql-metrics-feedback>.
+- **GitHub Copilot Chat integration** for server performance metrics: use natural language to inspect trends, identify bottlenecks, and generate diagnostic SQL.
+- Keybinding for "Run Current Statement" in the Query Editor (default: `Ctrl+Shift+Enter`) executes the statement under the cursor without requiring a selection ([#121](https://github.com/microsoft/vscode-pgsql/issues/121), [#103](https://github.com/microsoft/vscode-pgsql/issues/103))
+- Dragging an Object Explorer entity into an editor now inserts a correctly double-quoted identifier ([#126](https://github.com/microsoft/vscode-pgsql/issues/126))
+- Allow database connections via socket file paths ([#34](https://github.com/microsoft/vscode-pgsql/issues/34))
+
+### Fixed
+
+- Client tools dependency installation is now atomic to prevent partial or corrupted installs ([#144](https://github.com/microsoft/vscode-pgsql/issues/144), [#138](https://github.com/microsoft/vscode-pgsql/issues/138), [#128](https://github.com/microsoft/vscode-pgsql/issues/128))
+- "Explain Analyze" toolbar toggle now preserves its correct state for both saved and unsaved SQL files ([#145](https://github.com/microsoft/vscode-pgsql/issues/145))
+- Integrated `psql` shell now supports custom binary paths containing spaces on Windows ([#148](https://github.com/microsoft/vscode-pgsql/issues/148))
+- Entra auth tokens regenerate when the selected Entra account or tenant changes in the connection dialog
+- Removed inadvertent logging of sensitive information in extension logs ([#102](https://github.com/microsoft/vscode-pgsql/issues/102))
+- Correct datatype mapping for `oid` values exceeding the Python signed integer limit ([#129](https://github.com/microsoft/vscode-pgsql/issues/129))
+
+### Changed
+
+- Removed deprecated or unused dependencies and upgraded remaining packages
+- Improved connection retry logic and resilience during long-running sessions and transient network interruptions
+
 ## [1.8.0] - 2025-08-04
 
 Stable release.
