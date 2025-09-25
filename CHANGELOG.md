@@ -10,7 +10,7 @@ Read more about pre-release versioning behavior for extensions in the
 
 ### Added
 
-- **Server dashboard** offering high-level metadata plus real-time and historical performance metrics for PostgreSQL servers, providing visibility into server health and workload patterns (historical data available for Azure Database for PostgreSQL Flexible Server). Provide your feedback: <https://aka.ms/pgsql-metrics-feedback>.
+- **Server dashboard** offering high-level metadata plus real-time and historical performance metrics for PostgreSQL servers, providing visibility into server health and workload patterns (historical data available for Azure Database for PostgreSQL Flexible Server). [See more details here](https://aka.ms/pgsql-metrics-feedback).
 - **GitHub Copilot Chat integration** for server performance metrics: use natural language to inspect trends, identify bottlenecks, and generate diagnostic SQL.
 - Keybinding for "Run Current Statement" in the Query Editor (default: `Ctrl+Shift+Enter`) executes the statement under the cursor without requiring a selection ([#121](https://github.com/microsoft/vscode-pgsql/issues/121), [#103](https://github.com/microsoft/vscode-pgsql/issues/103))
 - Dragging an Object Explorer entity into an editor now inserts a correctly double-quoted identifier ([#126](https://github.com/microsoft/vscode-pgsql/issues/126))
