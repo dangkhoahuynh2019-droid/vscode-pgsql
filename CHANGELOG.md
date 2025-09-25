@@ -27,8 +27,8 @@ Read more about pre-release versioning behavior for extensions in the
 
 ### Changed
 
-- Removed deprecated or unused dependencies and upgraded remaining packages
 - Improved connection retry logic and resilience during long-running sessions and transient network interruptions
+- Removed deprecated or unused dependencies and upgraded remaining packages
 
 ## [1.8.0] - 2025-08-04
 
