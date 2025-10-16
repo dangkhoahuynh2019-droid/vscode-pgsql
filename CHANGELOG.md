@@ -6,6 +6,13 @@ pre-releases and **even** minor version numbers for stable releases.
 Read more about pre-release versioning behavior for extensions in the
 [VS Code documentation](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#prerelease-extensions).
 
+## [1.11.0] - 2025-10-16
+
+### Changed
+
+- The extension now includes all platform-specific dependencies and is published per supported platform; no post-install downloads are required. Installs should work for network-restricted environments.
+- Updates to improve accessibility and language localization
+
 ## [1.10.0] - 2025-10-02
 
 Stable release.
