@@ -71,11 +71,11 @@ Get insights into your PostgreSQL server performance with the Server Dashboard.
 
 ![Server Dashboard](img/metrics-dashboard.gif)
 
-### Metrics Copilot
+### Metrics Intelligence with GitHub Copilot
 
-Get intelligent insights and help with performance and troubleshooting your PostgreSQL database with Copilot.
+Get intelligent insights and help with performance and troubleshooting your PostgreSQL database with integration into Copilot.
 
-![Metrics Copilot](img/metrics-copilot.gif)
+![Metrics Intelligence](img/metrics-copilot.gif)
 
 ### Create a docker PostgreSQL
 
