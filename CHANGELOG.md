@@ -6,6 +6,20 @@ pre-releases and **even** minor version numbers for stable releases.
 Read more about pre-release versioning behavior for extensions in the
 [VS Code documentation](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#prerelease-extensions).
 
+## [1.11.2, 1.11.3] - 2025-11-06
+
+### Fixed
+
+- Database schema names beginning with `pg` are no longer listed under the "System Schemas" path in Object Explorer
+
+### Changed
+
+- Feedback prompts are not shown when VS Code setting `telemetry.feedback.enabled` is set to `false`
+
+### Added
+
+- Experimental support for Start/Stop/Restart server operations on Azure Database for PostgreSQL Flexible Servers (`pgsql.azureServer.preview.enabled` setting)
+
 ## [1.11.0] - 2025-10-16
 
 ### Changed
