@@ -89,6 +89,12 @@ Run queries in a connected, intellisense-enabled VS Code editor. Results are dis
 
 Quickly connect psql to any of your databases, including Azure Database for PostgreSQL with Entra authentication.
 
+## Oracle to Azure Database for PostgreSQL Schema and Application Conversion (Preview)
+
+The PostgreSQL extension now includes an intelligent schema conversion feature that helps you migrate Oracle database schemas to Azure Database for PostgreSQL. This AI-powered tool automatically converts Oracle schema objects—including tables, views, stored procedures, functions, and triggers—into PostgreSQL-compatible equivalents. The conversion process uses Azure OpenAI to understand complex Oracle constructs and transform them following PostgreSQL best practices, while validating all converted objects in a scratch database environment to ensure compatibility before deployment. When automatic conversion isn't possible for complex Oracle-specific features, the tool flags these items as Review Tasks that you can resolve with assistance from GitHub Copilot Agents.
+
+The Application Conversion feature complements schema migration by automatically transforming your Oracle client application code to work with Azure Database for PostgreSQL. Simply import your source application code into the migration workspace and start the automated conversion process, which generates a comprehensive migration report detailing all required changes. The tool provides built-in diff tools to review and compare converted files side-by-side, making it easy to understand and validate the transformations. While you can perform application conversion independently, completing a schema migration first is strongly recommended—this enables the application conversion process to leverage schema context for more accurate and higher-quality code transformation results, ensuring your Oracle-dependent application logic, queries, and data access patterns are properly adapted for PostgreSQL.
+
 ## Usage
 
 Get started with the PostgreSQL extension by installing it from the [Visual Studio Code Extension Market](https://marketplace.visualstudio.com/items?itemName=ms-ossdata.vscode-pgsql).
