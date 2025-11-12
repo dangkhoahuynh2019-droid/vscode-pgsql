@@ -1,4 +1,4 @@
-# PostgreSQL for Visual Studio Code (Preview)
+# PostgreSQL for Visual Studio Code
 
 ![PostgreSQL for Visual Studio Code](img/intro-schema-agent-vid.gif)
 
@@ -14,8 +14,6 @@ The extension is supported on the following operating systems:
 - **Windows**: x64 only (ARM64 is not currently supported)
 - **Linux**: x64 and ARM64 (requires glibc 2.35+)
 - **macOS**: macOS 13+
-  - For macOS ARM64: Some backend services are yet to be converted to native ARM64 binaries. You need to install Rosetta 2:
-    > `/usr/sbin/softwareupdate --install-rosetta --agree-to-license`
 
 ### Air-gapped environments
 

@@ -6,6 +6,20 @@ pre-releases and **even** minor version numbers for stable releases.
 Read more about pre-release versioning behavior for extensions in the
 [VS Code documentation](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#prerelease-extensions).
 
+## [1.11.4] - 2025-11-12
+
+### Added
+
+- Oracle to Azure Database for PostgreSQL schema and application conversion (Preview)
+
+### Changed
+
+- macOS arm64 builds no longer require Rosetta 2 emulation
+
+### Fixed
+
+- Prevent corrupt Entra accounts from being saved in connection profiles ([[#164](https://github.com/microsoft/vscode-pgsql/issues/164)])
+
 ## [1.11.2, 1.11.3] - 2025-11-06
 
 ### Fixed
