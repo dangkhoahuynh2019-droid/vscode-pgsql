@@ -10,7 +10,7 @@ Read more about pre-release versioning behavior for extensions in the
 
 ### Added
 
-- Oracle to Azure Database for PostgreSQL schema and application conversion (Preview)
+- [Preview] Oracle to Azure Database for PostgreSQL schema and application conversion ([read more](README.md#oracle-to-azure-database-for-postgresql-schema-and-application-conversion-preview))
 
 ### Changed
 
