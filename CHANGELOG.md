@@ -6,6 +6,14 @@ pre-releases and **even** minor version numbers for stable releases.
 Read more about pre-release versioning behavior for extensions in the
 [VS Code documentation](https://code.visualstudio.com/api/working-with-extensions/publishing-extension#prerelease-extensions).
 
+## [1.12.0] - 2025-11-14
+
+Stable release.
+
+This is the stable release of the features introduced in `1.11.*`. There are no changes since `1.11.4`, but `1.12.0` marks these features as stable for all users.
+
+**Notably, this release makes the Oracle to Azure Database for PostgreSQL migration tooling available for all users in Preview.** This AI-powered feature helps you migrate Oracle database schemas and application code to PostgreSQL. [Learn more](README.md#oracle-to-azure-database-for-postgresql-schema-and-application-conversion-preview).
+
 ## [1.11.4] - 2025-11-12
 
 ### Added
