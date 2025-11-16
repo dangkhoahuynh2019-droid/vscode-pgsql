@@ -1,0 +1,23 @@
+{
+    "editor.defaultFormatter": "dev-doc.dev-doc",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.mouseWheelZoom": true,
+    "editor.aiStats.enabled": true,
+    "editor.allowVariableFontsInAccessibilityMode": true,
+    "editor.autoIndentOnPaste": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeActions.triggerOnFocusChange": true,
+    "editor.columnSelection": true,
+    "editor.definitionLinkOpensInPeek": true,
+    "editor.experimental.asyncTokenizationVerification": true,
+    "editor.experimental.asyncTokenizationLogging": true,
+    "editor.experimental.preferTreeSitter.css": true,
+    "editor.experimental.preferTreeSitter.ini": true,
+    "editor.experimental.preferTreeSitter.regex": true,
+    "editor.experimental.preferTreeSitter.typescript": true,
+    "editor.experimental.treeSitterTelemetry": true,
+    "editor.experimentalGpuAcceleration": "on",
+    "editor.foldingImportsByDefault": true
+}
